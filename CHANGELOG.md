@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`51e9e67`](https://github.com/stdlib-js/stdlib/commit/51e9e67bf770b750204cb4f97b0420faa06191ce) - **refactor:** use generalized utility _(by Athan Reines)_
 -   [`d84de96`](https://github.com/stdlib-js/stdlib/commit/d84de9698683c20fa3b67eb9d2a615a403f6b707) - **feat:** add `ndarray/base/quaternary-tiling-block-size` [(#9838)](https://github.com/stdlib-js/stdlib/pull/9838) _(by Muhammad Haris, Athan Reines)_
 
 </details>
