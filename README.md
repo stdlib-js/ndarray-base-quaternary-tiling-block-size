@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quaternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quaternary-tiling-block-size@esm/index.mjs';
+import quaternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quaternary-tiling-block-size@v0.1.0-esm/index.mjs';
 ```
 
 #### quaternaryBlockSize( dtypeX, dtypeY, dtypeZ, dtypeW, dtypeU )
@@ -105,7 +105,7 @@ The function supports the following arguments:
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@esm/index.mjs';
 import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@esm/index.mjs';
-import quaternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quaternary-tiling-block-size@esm/index.mjs';
+import quaternaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quaternary-tiling-block-size@v0.1.0-esm/index.mjs';
 
 // Generate a list of input ndarray dtype quadruplets:
 var dt = cartesianPower( dtypes(), 4 );
