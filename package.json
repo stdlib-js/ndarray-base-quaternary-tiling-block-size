@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-tiling-block-size": "github:stdlib-js/ndarray-base-tiling-block-size#main",
+    "@stdlib/ndarray-base-tiling-block-size": "^0.1.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-power": "^0.2.2",
     "@stdlib/assert-is-positive-integer": "^0.2.2",
-    "@stdlib/ndarray-base-promote-dtypes": "github:stdlib-js/ndarray-base-promote-dtypes#main",
-    "@stdlib/ndarray-dtypes": "^0.3.0",
+    "@stdlib/ndarray-base-promote-dtypes": "^0.1.0",
+    "@stdlib/ndarray-dtypes": "^0.4.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
