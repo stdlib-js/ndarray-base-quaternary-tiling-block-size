@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,25 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { DataType } from '@stdlib/types/ndarray';
 
 /**
-* Resolve a loop block size for multi-dimensional array tiled loops.
+* Returns a loop block size for multi-dimensional array tiled loops.
 *
-* @module @stdlib/ndarray-base-quaternary-tiling-block-size
+* @param dtypeX - first input array data type
+* @param dtypeY - second input array data type
+* @param dtypeZ - third input array data type
+* @param dtypeW - fourth input array data type
+* @param dtypeU - output array data type
+* @returns block size (in units of elements)
 *
 * @example
-* var quaternaryBlockSize = require( '@stdlib/ndarray-base-quaternary-tiling-block-size' );
-*
 * var bsize = quaternaryBlockSize( 'float64', 'float64', 'float64', 'float64', 'float64' );
 * // returns <number>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function quaternaryBlockSize( dtypeX: DataType, dtypeY: DataType, dtypeZ: DataType, dtypeW: DataType, dtypeU: DataType ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = quaternaryBlockSize;
